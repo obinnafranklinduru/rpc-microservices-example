@@ -47,7 +47,6 @@ To run this example, follow these steps:
    - Create a `.env` file in the project root directory
    - Provide the variable `MSG_QUEUE_URL=your-MSG_QUEUE_URL-uri`
 5. Start the server: `npm run start`
-6. Open three separate terminal windows or tabs.
 
 With all three services running, you can send requests to the Customer Service (`http://localhost:3000/wishlist`) or the Product Service (`http://localhost:4000/customer`) to observe the RPC communication between the services.
 
